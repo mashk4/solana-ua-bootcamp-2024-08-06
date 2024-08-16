@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { Keypair,  } from '@solana/web3.js';
+import { Keypair } from '@solana/web3.js';
 
 let tries = 0;
 while (true) {
