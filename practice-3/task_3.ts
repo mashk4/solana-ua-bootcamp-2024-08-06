@@ -6,8 +6,7 @@ import {
   PublicKey,
   clusterApiUrl
 } from '@solana/web3.js';
-import { airdropIfRequired } from "@solana-developers/helpers";
-
+import { airdropIfRequired } from '@solana-developers/helpers';
 
 const connection = new Connection(clusterApiUrl('devnet'));
 console.log('Connection established');
